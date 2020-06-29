@@ -1,10 +1,17 @@
 # gas-clasp-starter
 
 [howdy39](https://github.com/howdy39) さん作成の Google Apps Script by [google/clasp](https://github.com/google/clasp) スターターテンプレートを自分用に fork したものです。
+GitHub Actions 対応にしようかと思い fork しましたが、過剰かな？って感じなんで、当面このまま使用します。
+対応させる場合は、[momumomu/clasp_ci_sample](https://github.com/momumomu/clasp_ci_sample) を参考にすると良さげ。
 
 ## howdy39 さんの記事
 
 [(Japanese) Google Apps Script をローカル環境で快適に開発するためのテンプレートを作りました](https://qiita.com/howdy39/items/0e799a9bfc1d3bccf6e5)
+[Google Apps Script のデプロイを Circle CI から行う](https://qiita.com/howdy39/items/2c21251331e011d04512)
+
+## momumomu さんの記事
+
+[Google Apps Script(GAS)をclasp&GitHub Actionsでお手軽CI管理する](https://undersooon.hatenablog.com/entry/2019/12/25/200636)
 
 ## Tech Stack
 
@@ -24,7 +31,7 @@
 
 ### Clone the repository
 
-```
+```bash
 git clone --depth=1 https://github.com/tyamadadd/gas-clasp-starter.git <project_name>
 cd <project_name>
 rm -Rf .git
@@ -34,7 +41,7 @@ windows の場合、最後のディレクトリ削除は、適当に読み換え
 
 ### Install dependencies
 
-```
+```bash
 npm install
 ```
 
@@ -49,9 +56,9 @@ npm install
 
 #### Open `.clasp.json`, change scriptId
 
-What is scriptId ? https://github.com/google/clasp#scriptid-required
+What is scriptId ? <https://github.com/google/clasp#scriptid-required>
 
-```
+```json
 {
   "scriptId": <your_script_id>,
   "rootDir": "dist"
@@ -62,7 +69,7 @@ What is scriptId ? https://github.com/google/clasp#scriptid-required
 
 [Apps Script Manifests](https://developers.google.com/apps-script/concepts/manifests)
 
-```
+```json
 {
   "timeZone": "Asia/Tokyo", ## Change timeZone
   "dependencies": {
@@ -73,13 +80,13 @@ What is scriptId ? https://github.com/google/clasp#scriptid-required
 
 ### Development and build project
 
-```
+```bash
 npm run build
 ```
 
 ### Push
 
-```
+```bash
 clasp push
 ```
 
