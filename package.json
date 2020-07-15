@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/howdy39/gas-clasp-starter.git"
+    "url": "git+https://github.com/tyamadadd/gas-clasp-starter.git"
   },
   "keywords": [
     "gas",
     "google-apps-script",
     "clasp"
   ],
-  "author": "howdy39",
+  "author": "tyamadadd",
   "license": "MIT",
   "devDependencies": {
     "@types/google-apps-script": "1.0.11",
