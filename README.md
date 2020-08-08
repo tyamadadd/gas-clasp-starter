@@ -6,8 +6,8 @@ GitHub Actions 対応にしようかと思い fork しましたが、過剰か�
 
 ## howdy39 さんの記事
 
-[(Japanese) Google Apps Script をローカル環境で快適に開発するためのテンプレートを作りました](https://qiita.com/howdy39/items/0e799a9bfc1d3bccf6e5)
-[Google Apps Script のデプロイを Circle CI から行う](https://qiita.com/howdy39/items/2c21251331e011d04512)
++ [(Japanese) Google Apps Script をローカル環境で快適に開発するためのテンプレートを作りました](https://qiita.com/howdy39/items/0e799a9bfc1d3bccf6e5)
++ [Google Apps Script のデプロイを Circle CI から行う](https://qiita.com/howdy39/items/2c21251331e011d04512)
 
 ## momumomu さんの記事
 
